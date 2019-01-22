@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {MyTable} from './MyTable';
+import {MyRoot} from './MyRoot';
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
-          <MyTable />
+          <MyRoot />
         </header>
       </div>
     );
